@@ -70,12 +70,16 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text=f"🚁 ʜᴇʟᴘ 🚁", callback_data="help_back"),
-        InlineKeyboardButton(text=f"🥀 sᴛᴀᴛs 🥀", callback_data="stats_callback"),
+        InlineKeyboardButton(text="[► ʜᴇʟᴘ ◄]", callback_data="help_back"),
+        InlineKeyboardButton(text="❔ ᴄʜɪᴛ ᴄʜᴀᴛ",
+                             url="https://telegram.dog/weebzonex"),
+        InlineKeyboardButton(text="🏡 ᴀʙᴏᴜᴛ 🏡", callback_data="ABG_"),
     ],
     [
-        InlineKeyboardButton(text="🏡 ᴀʙᴏᴜᴛ 🏡", callback_data="ABG_"),
-        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="🚑 sᴜᴘᴘᴏʀᴛ",
+                             url=f"https://telegram.dog/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="📢 ᴜᴘᴅᴀᴛᴇs",
+                             url="https://telegram.dog/kaizoyu")
     ],
 ]
 
