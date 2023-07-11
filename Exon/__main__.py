@@ -59,16 +59,22 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
+PM_START_TEXT = """
+────「 [{}](https://telegra.ph/file/0079a641bdb8e75e2bdc3.jpg) 」────
 
-PM_START_TEX = """
-ʜᴇʟʟᴏ `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \nᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ʙʀᴏ . . . 
+*Hola! {},*
+*I am an Anime themed advance group management bot with a lot of Cool Features.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+❍ *Uptime:* `{}`
+❍ `{}` *users, across* `{}` *chats.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+➛ Try The Help Buttons Below To Know My Abilities ××
 """
-
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="❣ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ❣︎", url=f"t.me/{BOT_USERNAME}?startgroup=new"
+            text="× ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ×", url=f"t.me/{BOT_USERNAME}?startgroup=new"
         ),
     ],
     [
