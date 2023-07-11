@@ -233,7 +233,7 @@ def start(update: Update, context: CallbackContext):  # sourcery no-metrics
                         InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back"),
                         InlineKeyboardButton(
                             text="sᴜᴘᴘᴏʀᴛ",
-                            callback_data="ABG_support",
+                            callback_data="weebs_support",
                         ),
                     ]
                 )
